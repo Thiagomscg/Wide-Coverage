@@ -1,0 +1,91 @@
+*{
+    text-decoration: none;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+body{width: 100vw;}
+
+header{
+    margin: 32px 0px 0px 42px;
+}
+
+.HeaderLinks{
+    margin-right: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+}
+
+.HeaderLinks:first-child{
+    margin-right: 36px;
+}
+
+.HeaderButton{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    padding: 13px 29px 14px 28px;
+}
+
+main{
+    display: flex;
+    margin: 103px 0px 0px 121px;
+}
+
+.FirstMainSection{
+    width: 595px;
+    height: 500px;
+}
+
+.SeccondMainSection{
+    width: 582px;
+    height: 500px;
+    margin-left: 84px;
+    margin-top: 40px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    /* or 132% */
+
+    letter-spacing: 0.596154px;
+
+    color: #161A49;
+}
+
+p{  display: block;
+    width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 47px 0px 55px 0px;
+}
+
+.MainLink{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #6FBF44;
+
+}
